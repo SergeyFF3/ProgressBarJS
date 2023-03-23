@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+    margin: 0;
+    font: inherit;
+}
+
+.content {
+    font-family: "Arial", Serif;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.progress-container {
+    position: relative;
+    background: #ddd;
+    height: 30px;
+    width: 100%;
+    border: 1px solid #4CAF50;
+    margin-bottom: 5px;
+}
+
+.progress-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 28px;
+    background: #4CAF50;
+    transition: width .05s linear;
+}
+
+.percent-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-container {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid #4CAF50;
+    background: #ddd;
+    transition: .2s;
+}
+
+button:hover {
+    background: #4CAF50;
+    color: white;
+}
